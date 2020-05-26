@@ -9,7 +9,6 @@
       <%= render 'tweets/form' %>
     </div>
   </article>
-</div>
 
 <% @tweets.each do |tweet| %>
   <div class="box">
@@ -22,10 +21,11 @@
       
       <div class="media-content">
         <div class="content">
-          <strong>Andy Leverenz</strong><br />
-          <small>@webcrunch</small><br />
+          <strong><%= tweet.user.name %></strong><br />
+          <small><%= tweet.user.username %></small><br />
           <p><%= tweet.tweet %></p>
         </div>
+
         <nav class="level">
           <div class="level-left is-mobile">
             <%= link_to tweet, class: "level-item" do %>
@@ -43,3 +43,4 @@
     </article>
   </div>
 <% end %>
+</div>
