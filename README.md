@@ -1,24 +1,7 @@
 # README
+This project is for the Twitter clone project outlined in The Odin Projects Ruby on Rails curriculum in the Authentication module.
+The project was completed by following along with Web-Crunch on Youtube. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The tutorial series is found at:
+https://www.youtube.com/watch?time_continue=1&v=5gUysPm64a4&feature=emb_logo
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
